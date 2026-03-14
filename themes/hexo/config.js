@@ -1,5 +1,5 @@
 const CONFIG = {
-  HEXO_HOME_BANNER_ENABLE: true,
+  HEXO_HOME_BANNER_ENABLE: false,
   // 3.14.1以后的版本中，欢迎语在blog.config.js中配置，用英文逗号','隔开多个。
   HEXO_HOME_BANNER_GREETINGS: [
     'Hi，我是一个程序员',
@@ -33,7 +33,7 @@ const CONFIG = {
   HEXO_ARTICLE_ADJACENT: true, // 显示上一篇下一篇文章推荐
   HEXO_ARTICLE_COPYRIGHT: true, // 显示文章版权声明
   HEXO_ARTICLE_NOT_BY_AI: false, // 显示非AI写作
-  HEXO_ARTICLE_RECOMMEND: true, // 文章关联推荐
+  HEXO_ARTICLE_RECOMMEND: false, // 文章关联推荐
 
   HEXO_WIDGET_LATEST_POSTS: true, // 显示最新文章卡
   HEXO_WIDGET_ANALYTICS: false, // 显示统计卡
