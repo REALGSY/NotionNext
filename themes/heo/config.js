@@ -3,6 +3,8 @@ const CONFIG = {
   HEO_LOADING_COVER: true, // 页面加载的遮罩动画
 
   HEO_HOME_BANNER_ENABLE: false,
+  // 开启英雄区(首页大卡片)
+  HEO_HERO_ENABLE: false,
 
   HEO_SITE_CREATE_TIME: '2021-09-21', // 建站日期，用于计算网站运行的第几天
 

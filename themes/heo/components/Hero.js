@@ -17,6 +17,10 @@ import CONFIG from '../config'
  */
 const Hero = props => {
   const HEO_HERO_REVERSE = siteConfig('HEO_HERO_REVERSE', false, CONFIG)
+  const HEO_HERO_ENABLE = siteConfig('HEO_HERO_ENABLE', true, CONFIG)
+  if (HEO_HERO_ENABLE === false) {
+    return null
+  }
   return (
     <div
       id='hero-wrapper'
